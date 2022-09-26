@@ -28,7 +28,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ## ⌨ Como executar o projeto
 
-Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.github.io/BootStrap/)
+Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.github.io/Projeto-final-FrontEnd-Essencial/)
 
 --- 
 
