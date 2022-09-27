@@ -21,6 +21,7 @@
 
     <!-- Main Style -->
     <link rel="stylesheet" href="./public/styles/style.css" />
+    <link rel="stylesheet" href="./public/styles/index.css" />
 
     <!-- JavaScript Bundle with Popper BootStrap -->
     <script
@@ -48,7 +49,7 @@
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mx-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -58,13 +59,16 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse mx-1" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
+                <a class="nav-link" href="#mais-vendidos">Mais vendidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobre</a>
@@ -73,20 +77,264 @@
                 <a class="nav-link" href="#">Fale conosco</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex pesquisar" role="search">
               <input
-                class="form-control me-2"
+                class="form-control px-2 search"
                 type="search"
-                placeholder="Search"
+                placeholder="Pesquisar"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
+              <button class="btn btn-outline-primary botao" type="submit">
+                <img src="./public/images/search.svg">
               </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
+
+    <main>
+      <section class="home">
+        <div class="container py-5">
+          <div class="row pt-4">
+            <div class="col-lg-7 pt-5 mt-5 text-center">
+              <div class="transparente mt-5">
+              <h1 class="py-5 my-5 px-1 mx-2">Compre os <strong>MELHORES</strong> periféricos com os <strong>MENORES</strong> preços do mercado!</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mais-vendidos" id="mais-vendidos">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-lg-5 m-auto text-center">
+              <h1>Mais Vendidos do Mês</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 text-center">
+              <a href="#" target="_blank"><div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                <img src="./public/images/teclado apex 3steelseries.webp" 
+                  alt="Teclado mecânico SteelSeries" 
+                  class="img-fluid"
+                />
+                </div>
+              </div></a>
+              <h5>Teclado Mecânico RGB Apex 3 SteelSeries</h5>
+              <p>R$349,99</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+              <a href="#" target="_blank"><div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                <img src="./public/images/mouse razer.webp" 
+                  alt="Mouse Razer sem fio" 
+                  class="img-fluid"
+                />
+                </div>
+              </div></a>
+              <h5>Mouse Gamer Razer Viper RGB sem fio</h5>
+              <p>R$829,99</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+              <a href="#" target="_blank"><div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                <img src="./public/images/headset steelseries.webp" 
+                  alt="Headset steelseries" 
+                  class="img-fluid"
+                />
+                </div>
+              </div></a>
+              <h5>Headset Gamer SteelSeries Artics 5</h5>
+              <p>R$759,99</p>
+            </div>
+
+            <div class="col-lg-3 text-center">
+              <a href="#" target="_blank"><div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                <img src="./public/images/alienware.webp" 
+                  alt="Monitor curvo" 
+                  class="img-fluid"
+                />
+                </div>
+              </div></a>
+              <h5>Monitor Gamer curvo Alienware 240hz 34"</h5>
+              <p>R$10.399,99</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="produtos" id="produtos">
+        <div class="container py-5 text-center">
+          <div class="row py-5">
+            <div class="col-lg-8 m-auto">
+              <h1>Produtos</h1>
+            </div>
+          </div>
+
+        <div class="row py-2 mx-1">
+          <div class="col-lg-5 m-auto">
+            <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
+              <img src="./public/images/keyboard.png" 
+              alt="ícone de teclado" class="img-fluid"
+              />
+            </div></a>
+          </div>
+
+          <div class="col-lg-5 m-auto">
+            <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
+              <img src="./public/images/wireless-mouse.png" 
+              alt="ícone de mouse" class="img-fluid"
+              />
+            </div></a>
+          </div>
+        </div>
+
+        <div class="row py-2 mx-1">
+          <div class="col-lg-5 m-auto">
+            <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
+              <img src="./public/images/headset.png" 
+              alt="ícone de headset" class="img-fluid"
+              />
+            </div></a>
+          </div>
+
+          <div class="col-lg-5 m-auto">
+            <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
+              <img src="./public/images/desktop.png" 
+              alt="ícone de monitor" class="img-fluid"
+              />
+            </div></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+    </main>
+    
+    <footer class="bg-dark py-2">
+      
+      <section class="social-media">
+        <div class="container py-2">
+          <div class="text-center m-auto">
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/facebook.png" alt="logo facebook" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/instagram.png" alt="logo instagram" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/twitter.png" alt="logo twitter" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/google-plus.png" alt="logo google-plus" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/linkedin.png" alt="logo linkedin" class="media-img">
+            </a>
+          </div>
+        </div>
+      </section>
+      
+    <section class="newsletter">
+      <div class="container py-3">
+        <div class="row text-center">
+          <div class="col-lg-6 m-auto">
+            <div class="subcribe-form fl-wrap">
+              <h2>Fique por dentro de nossas ofertas!</h2>
+              <p>Assine nossa newsletter e não perca nenhuma promoção:</p>
+              <form id="subscribe" novalidate="true" class="news-form">
+                  <input class="enteremail px-2" name="EMAIL" id="subscribe-email" placeholder="Insira seu email: " spellcheck="false" type="text">
+                  <button type="submit" id="subscribe-button" class="subscribe-button color-bg botao1"><i class="fa fa-rss"></i> Assinar</button>
+                  <label for="subscribe-email" class="subscribe-message"></label>
+              </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="links">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h5 class="text-uppercase fw-bold mb-4">
+               Penta
+              </h5>
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+                Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+              </p>
+            </div>
+            
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h5 class="text-uppercase fw-bold mb-4">
+                Produtos
+              </h5>
+              <p>
+                <a href="#!">Headset</a>
+              </p>
+              <p>
+                <a href="#!">Monitores</a>
+              </p>
+              <p>
+                <a href="#!">Mouses</a>
+              </p>
+              <p>
+                <a href="#!">Teclados</a>
+              </p>
+            </div>
+           
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+             
+              <h5 class="text-uppercase fw-bold mb-4">
+                Pagamento
+              </h5>
+              <p>
+                <a href="#!">Cartões</a>
+              </p>
+              <p>
+                <a href="#!">Pix</a>
+              </p>
+              <p>
+                <a href="#!">Boleto</a>
+              </p>
+              <p>
+                <a href="#!">Transferência</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              
+              <h5 class="text-uppercase fw-bold mb-4">Contato</h5>
+              <p>Cep XXXXXXX, Centro, Rio de Janeiro-RJ</p>
+              <p>
+                penta@contato.com
+              </p>
+              <p>21 99999-8970</p>
+              <p>21 4224-778X</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="cnpj">
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="fw-bold" href="#">pentaperifericos.com</a>
+        | CNPJ: XX. XXX. XXX/0001-XX
+      </div>
+    </section>
+   </footer>
+
   </body>
 </html>
