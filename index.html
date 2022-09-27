@@ -21,6 +21,7 @@
 
     <!-- Main Style -->
     <link rel="stylesheet" href="./public/styles/style.css" />
+    <link rel="stylesheet" href="./public/styles/index.css" />
 
     <!-- JavaScript Bundle with Popper BootStrap -->
     <script
@@ -176,8 +177,9 @@
               <h1>Produtos</h1>
             </div>
           </div>
+
         <div class="row py-2 mx-1">
-          <div class="col-lg-6 m-auto">
+          <div class="col-lg-5 m-auto">
             <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
               <img src="./public/images/keyboard.png" 
               alt="ícone de teclado" class="img-fluid"
@@ -185,7 +187,7 @@
             </div></a>
           </div>
 
-          <div class="col-lg-6 m-auto">
+          <div class="col-lg-5 m-auto">
             <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
               <img src="./public/images/wireless-mouse.png" 
               alt="ícone de mouse" class="img-fluid"
@@ -195,7 +197,7 @@
         </div>
 
         <div class="row py-2 mx-1">
-          <div class="col-lg-6 m-auto">
+          <div class="col-lg-5 m-auto">
             <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
               <img src="./public/images/headset.png" 
               alt="ícone de headset" class="img-fluid"
@@ -203,7 +205,7 @@
             </div></a>
           </div>
 
-          <div class="col-lg-6 m-auto">
+          <div class="col-lg-5 m-auto">
             <a href="#" target="_blank"><div class="card border-1 bg-dark p-2">
               <img src="./public/images/desktop.png" 
               alt="ícone de monitor" class="img-fluid"
@@ -213,19 +215,43 @@
         </div>
         </div>
       </section>
+      
     </main>
-
-   <footer class="bg-dark py-2">
+    
+    <footer class="bg-dark py-2">
+      
+      <section class="social-media">
+        <div class="container py-2">
+          <div class="text-center m-auto">
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/facebook.png" alt="logo facebook" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/instagram.png" alt="logo instagram" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/twitter.png" alt="logo twitter" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/google-plus.png" alt="logo google-plus" class="media-img">
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img src="./public/images/linkedin.png" alt="logo linkedin" class="media-img">
+            </a>
+          </div>
+        </div>
+      </section>
+      
     <section class="newsletter">
-      <div class="container py-5">
+      <div class="container py-3">
         <div class="row text-center">
           <div class="col-lg-6 m-auto">
             <div class="subcribe-form fl-wrap">
               <h2>Fique por dentro de nossas ofertas!</h2>
-              <p></p>
-              <form id="subscribe" novalidate="true">
-                  <input class="enteremail" name="EMAIL" id="subscribe-email" placeholder="Email" spellcheck="false" type="text">
-                  <button type="submit" id="subscribe-button" class="subscribe-button color-bg"><i class="fa fa-rss"></i> Subscribe</button>
+              <p>Assine nossa newsletter e não perca nenhuma promoção:</p>
+              <form id="subscribe" novalidate="true" class="news-form">
+                  <input class="enteremail px-2" name="EMAIL" id="subscribe-email" placeholder="Insira seu email: " spellcheck="false" type="text">
+                  <button type="submit" id="subscribe-button" class="subscribe-button color-bg botao1"><i class="fa fa-rss"></i> Assinar</button>
                   <label for="subscribe-email" class="subscribe-message"></label>
               </form>
           </div>
@@ -234,11 +260,80 @@
       </div>
     </section>
 
-    <section class="social-media"></section>
 
-    <section class="links"></section>
+    <section class="links">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h5 class="text-uppercase fw-bold mb-4">
+               Penta
+              </h5>
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
+                Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+              </p>
+            </div>
+            
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h5 class="text-uppercase fw-bold mb-4">
+                Produtos
+              </h5>
+              <p>
+                <a href="#!">Headset</a>
+              </p>
+              <p>
+                <a href="#!">Monitores</a>
+              </p>
+              <p>
+                <a href="#!">Mouses</a>
+              </p>
+              <p>
+                <a href="#!">Teclados</a>
+              </p>
+            </div>
+           
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+             
+              <h5 class="text-uppercase fw-bold mb-4">
+                Pagamento
+              </h5>
+              <p>
+                <a href="#!">Cartões</a>
+              </p>
+              <p>
+                <a href="#!">Pix</a>
+              </p>
+              <p>
+                <a href="#!">Boleto</a>
+              </p>
+              <p>
+                <a href="#!">Transferência</a>
+              </p>
+            </div>
 
-    <section class="cnpj"></section>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              
+              <h5 class="text-uppercase fw-bold mb-4">Contato</h5>
+              <p>Cep XXXXXXX, Centro, Rio de Janeiro-RJ</p>
+              <p>
+                penta@contato.com
+              </p>
+              <p>21 99999-8970</p>
+              <p>21 4224-778X</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="cnpj">
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="fw-bold" href="#">pentaperifericos.com</a>
+        | CNPJ: XX. XXX. XXX/0001-XX
+      </div>
+    </section>
    </footer>
 
   </body>

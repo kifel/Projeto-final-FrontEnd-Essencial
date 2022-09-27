@@ -1,0 +1,149 @@
+
+   .home {
+    background: url(/Projeto_final/Projeto-Final-FrontEnd-Essencial/public/images/Wallpaper-Gaming-Setup-Steelseries-Keyboards-Headphones37.webp)no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    }
+
+  .transparente {
+      background-color: rgba(0, 0, 0, 0.76);
+      border-radius: 1.5%;
+      border-style: solid;
+    }
+
+  .home h1 {
+      font-size: 4rem;
+      font-weight: 500;
+      color: rgb(255, 246, 195);
+    }
+
+  .nav-link {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-transform: uppercase;
+    }
+
+  .pesquisar {
+      margin-right: 10px;
+    }
+
+  .search {
+      height: 40px;
+      width: 80%;
+      border-radius: 60px;
+      border: solid 2px rgba(170,23,208,0.85);
+      outline: none;
+      margin-right: -35px;
+    }
+
+  .botao {
+      height: 40px;
+      width: 40%;
+      border-radius: 60px;
+      border: none;
+      outline: none;
+      background: rgb(170,23,208);
+    }
+
+  .mais-vendidos h1 {
+      font-weight: 700;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+  .mais-vendidos h5, p {
+      margin-top: 5px;
+      padding-top: 5px;
+    }
+
+  .card:hover {
+      box-shadow: 5px 5px 15px 2px rgba(24,4,36,0.4);
+      -webkit-box-shadow: 5px 5px 15px 2px rgba(24,4,36,0.4);
+      -moz-box-shadow: 5px 5px 15px 2px rgba(24,4,36,0.4);
+      transform: 0.5s;
+    }
+  
+  .produtos h1 {
+      font-weight: 700;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    footer h2{
+        font-weight: 500;
+        font-size: 1.25em;
+    }
+
+    footer h5{
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    footer p{
+        font-weight: 300;
+        font-size: 1em;
+    }
+
+    footer {
+        color: beige;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: beige;
+        text-transform: uppercase;
+        font-size: 0.85em;
+    }
+
+    footer a:hover{
+        color:rgb(170,23,208);
+    }
+    
+    .botao1 {
+        height: 40px;
+        width: 30%;
+        border-radius: 60px;
+        border: solid 2px rgba(170,23,208,0.85);
+        outline: none;
+        background: rgb(170,23,208);
+    }
+
+    .botao1:hover {
+        background: rgb(47, 12, 56);
+        border: solid 2px rgb(47, 12, 56);
+        transition: 0.5ms;
+    }
+
+    .news-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .enteremail {
+        height: 40px;
+        width: 60%;
+        border-radius: 60px;
+        border: solid 2px rgba(170,23,208,0.85);
+        outline: none;
+        margin-right: -50px;
+    }
+
+    .media-img {
+    height: 30px;
+    width: 30px;
+    }
+
+    @include media-breakpoint-up(xs) { 
+        .container, .transparente {
+            display: block;
+        }
+     }
+    @include media-breakpoint-up(sm) { 
+        .container, .transparente {
+            display: block;
+        }
+     }
+    
