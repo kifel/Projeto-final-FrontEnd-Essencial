@@ -1,29 +1,30 @@
-let http = new XMLHttpRequest();
+const idItem = localStorage.getItem("id");
 
-http.open("get", "../database/produtos.json", true);
+console.log(idItem);
 
-http.send();
+fetch("../database/produtos.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (produtos) {
+    let placeholder = document.querySelector(".produtos");
 
-http.onload = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    let produtos = JSON.parse(this.responseText);
-
-    let output = "";
+    let out = "";
 
     for (let item of produtos) {
-      output += `
+      if (item.id === idItem) {
+        out += `
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card">
                     <img src="${item.image}" alt="${item.image} class="card-img-top" >
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
                         <p class="card-text">${item.description}</p>
-                        <a href="detalhes.html" class="btn btn-primary ${item.id}" onclick="show(${item.id})" >Detalhes</a>
                     </div>
                 </div>
             </div>
         `;
+      }
     }
-    document.querySelector(".produtos").innerHTML = output;
-  }
-};
+    document.querySelector(".produtos").innerHTML = out;
+  });
