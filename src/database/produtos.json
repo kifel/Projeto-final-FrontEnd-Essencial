@@ -1,51 +1,25 @@
 [
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  },
-  {
-    "id": "2",
-    "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99"
-  }
+    {
+        "id": "1",
+        "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
+        "title": "mouse gamer",
+        "description": "Mouse ultra leve",
+        "price": "9.99"
+    },
+    {
+        
+        "id": "2",
+        "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
+        "title": "teclado gamer",
+        "description": "teclado ultra leve",
+        "price": "9.99"
+    },
+    {
+        
+        "id": "3",
+        "image": "https://m.media-amazon.com/images/I/718-DlUkzWL._AC_SY450_.jpg",
+        "title": "cadeira gamer",
+        "description": "cadeira ultra leve",
+        "price": "9.99"
+    }
 ]
