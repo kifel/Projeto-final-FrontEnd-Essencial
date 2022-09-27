@@ -18,7 +18,8 @@ fetch("../database/produtos.json")
                     <img src="${item.image}" alt="${item.image} class="card-img-top" height="300" >
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
-                        <p class="card-text">R$ ${item.description}</p>
+                        <p class="card-text">${item.description}</p>
+                        <p class="card-text">R$ ${item.price}</p>
                     </div>
                 </div>
             </div>
