@@ -1,6 +1,6 @@
 
    .home {
-    background: url(/Projeto_final/Projeto-Final-FrontEnd-Essencial/public/images/Wallpaper-Gaming-Setup-Steelseries-Keyboards-Headphones37.webp)no-repeat;
+    background: url(../../public/images/Wallpaper-Gaming-Setup-Steelseries-Keyboards-Headphones37.webp)no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
