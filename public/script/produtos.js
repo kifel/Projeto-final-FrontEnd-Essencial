@@ -14,7 +14,7 @@ http.onload = function () {
       output += `
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="${item.image}" alt="${item.image} class="card-img-top" >
+                    <img src="${item.image}" alt="${item.image} class="card-img-top" height="300" >
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
                         <p class="card-text">${item.description}</p>
