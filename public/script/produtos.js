@@ -10,7 +10,7 @@ http.onload = function () {
 
     let output = "";
 
-    for (let item of produtos) {
+    produtos.forEach((item) => {
       output += `
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card">
@@ -23,7 +23,8 @@ http.onload = function () {
                 </div>
             </div>
         `;
-    }
+    });
+
     document.querySelector(".produtos").innerHTML = output;
   }
 };

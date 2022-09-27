@@ -7,10 +7,9 @@ fetch("../database/produtos.json")
     return response.json();
   })
   .then(function (produtos) {
-
     let out = "";
 
-    for (let item of produtos) {
+    produtos.forEach((item) => {
       if (item.id === idItem) {
         out += `
             <div class="col-12 col-md-6 col-lg-3">
@@ -25,6 +24,7 @@ fetch("../database/produtos.json")
             </div>
         `;
       }
-    }
+    });
+
     document.querySelector(".produtos").innerHTML = out;
   });
