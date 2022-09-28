@@ -2,7 +2,7 @@ const idItem = localStorage.getItem("id");
 
 console.log(idItem);
 
-fetch("../../src/database/produtos.json")
+fetch("../database/produtos.json")
   .then(function (response) {
     return response.json();
   })
