@@ -17,9 +17,9 @@ fetch("../database/produtos.json")
         const modelo = document.querySelector(".modelo");
         tittle.innerText = item.title;
         price.innerText = `R$, ${item.price}`;
-        desc.innerText = item.description
-        marca.innerText = item.marca
-        modelo.innerText = item.marca
+        desc.innerText = item.description;
+        marca.innerText = item.marca;
+        modelo.innerText = item.modelo;
       }
     });
   });
