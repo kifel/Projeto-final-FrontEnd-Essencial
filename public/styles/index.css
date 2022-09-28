@@ -43,7 +43,7 @@
 }
 
 .search {
-  height: 4rem;
+  height: 3rem;
   width: 80%;
   border-radius: 6rem;
   border: solid 2px rgba(170, 23, 208, 0.85);
@@ -52,7 +52,7 @@
 }
 
 .botao {
-  height: 4rem;
+  height: 3rem;
   width: 40%;
   border-radius: 6rem;
   border: none;
@@ -108,6 +108,7 @@ p {
   width: 20rem;
 }
 
+/* Footer */
 footer h2 {
   font-weight: 500;
   font-size: 1.25em;
@@ -172,6 +173,7 @@ footer a:hover {
   height: 3rem;
   width: 3rem;
 }
+/* Footer */
 
 @include media-breakpoint-up(xs) {
   .container,
