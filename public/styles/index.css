@@ -19,6 +19,19 @@
   color: rgb(255, 246, 195);
 }
 
+/* Header */
+#logo-header {
+  font-family: Stalinist One;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#logo-header:hover {
+  color: rgba(247, 215, 255, 0.726);
+  transition: 0.5ms;
+}
+
 .nav-link {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -46,6 +59,7 @@
   outline: none;
   background: rgb(170, 23, 208);
 }
+/* Header */
 
 .mais-vendidos h1 {
   font-weight: 700;
