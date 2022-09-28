@@ -4,17 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../public/styles/styleform.css" />
+    
     <script src="form.js"></script>
     <!-- Fontawesome CDN Link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../public/styles/style.css" />
+    <link rel="stylesheet" href="../../public/styles/styleform.css" />
     <title>Fale conosco</title>
   </head>
   <body>
-    <div class="container">
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark align-items-center">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="#" id="logo-header">
+            Penta
+          </a>
+          <button
+            class="navbar-toggler mx-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mx-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html#mais-vendidos">Mais vendidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../src/views/formulario.html">Fale conosco</a>
+              </li>
+            </ul>
+            <form class="d-flex pesquisar" role="search">
+              <input
+                class="form-control px-2 search"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary botao" type="submit">
+                <img src="../../public/images/search.svg" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container m-auto mt-5">
       <div class="content">
         <div class="left-side">
           <div class="address details">
@@ -55,6 +122,95 @@
         </div>
       </div>
     </div>
+
+    <footer class="bg-dark py-2 mt-5">
+      <section class="social-media">
+        <div class="container x bg-dark py-2">
+          <div class="text-center m-auto">
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/facebook.png"
+                alt="logo facebook"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/instagram.png"
+                alt="logo instagram"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/twitter.png"
+                alt="logo twitter"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/google-plus.png"
+                alt="logo google-plus"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/linkedin.png"
+                alt="logo linkedin"
+                class="media-img"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container x bg-dark py-3">
+          <div class="row text-center">
+            <div class="col-lg-6 m-auto">
+              <div class="subcribe-form fl-wrap">
+                <h2>Fique por dentro de nossas ofertas!</h2>
+                <p>Assine nossa newsletter e não perca nenhuma promoção:</p>
+                <form id="subscribe" novalidate="true" class="news-form">
+                  <input
+                    class="enteremail px-2"
+                    name="EMAIL"
+                    id="subscribe-email"
+                    placeholder="Insira seu email: "
+                    spellcheck="false"
+                    type="text"
+                  />
+                  <button
+                    type="submit"
+                    id="subscribe-button"
+                    class="subscribe-button color-bg botao1"
+                  >
+                  Assinar
+                  </button>
+                  <label
+                    for="subscribe-email"
+                    class="subscribe-message"
+                  ></label>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cnpj">
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2021 Copyright:
+          <a class="fw-bold" href="#">pentaperifericos.com</a>
+          | CNPJ: XX. XXX. XXX/0001-XX
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
     </div>
