@@ -20,7 +20,8 @@
     />
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="../../public/styles/style.css" />
+    <link rel="stylesheet" href="./public/styles/style.css" />
+    <link rel="stylesheet" href="./public/styles/index.css" />
 
     <!-- JavaScript Bundle with Popper BootStrap -->
     <script
@@ -31,12 +32,11 @@
     ></script>
 
     <!-- Main Js -->
-    <script src="../../public/script/main.js" defer></script>
-
-    <script src="../../public/script/produtos.js" defer></script>
+    <script src="./public/script/main.js" defer></script>
 
     <title>E-Commerce</title>
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -50,7 +50,7 @@
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mx-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -60,13 +60,19 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse mx-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Produtos</a>
+                <a class="nav-link" href="#mais-vendidos">Mais vendidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobre</a>
@@ -75,36 +81,20 @@
                 <a class="nav-link" href="#">Fale conosco</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex pesquisar" role="search">
               <input
-                class="form-control me-2"
+                class="form-control px-2 search"
                 type="search"
-                placeholder="Search"
+                placeholder="Pesquisar"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
+              <button class="btn btn-outline-primary botao" type="submit">
+                <img src="./public/images/search.svg" />
               </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <section id="produtos">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-                <div class="text-center pt-5">
-                    <h2>Conheça nossos produtos</h2>
-                </div>
-            </div>
-          </div>
-          <div class="row produtos">
-
-          </div>
-        </div>
-      </section>
-    </main>
   </body>
 </html>
