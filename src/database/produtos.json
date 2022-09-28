@@ -3,40 +3,120 @@
     "id": "1",
     "image": "/public/images/teclado apex 3steelseries.webp",
     "title": "Teclado Mecânico RGB Apex 3 SteelSeries",
-    "description": "teclado ultra leve",
+    "description": "Teclado ultra leve como iluminação de efeitos RGB. Swiches de jogos silenciosos Whisper. Descanso de pulso magnético premium. Controles multimídia dedicados. Roteamento de Cabo de Três Vias.",
     "price": "349,99",
-    "maisvendido": true
+    "maisvendido": true,
+    "marca": "Steelseries",
+    "modelo": "Apex 3"
   },
   {
     "id": "2",
     "image": "/public/images/mouse-razer.webp",
     "title": "Mouse Gamer Razer Viper RGB sem fio",
-    "description": "mouse ultra leve",
+    "description": "Mouse Sem Fio Gamer Razer Viper Ultimate, Chroma, com Dock. Sensor Óptico Razer Focus+. Design leve de 74 G. Pilha com duração de 70 horas.",
     "price": "829,99",
-    "maisvendido": true
+    "maisvendido": true,
+    "marca": "Razer",
+    "modelo": "RZ01-03050100-R3U"
   },
   {
     "id": "3",
     "image": "/public/images/headset-steelseries.webp",
     "title": "Headset Gamer SteelSeries Artics 5",
-    "description": "Headset Gamer ultra leve",
+    "description": "Headset Gamer ultra leve, projetado especificamente para o PC Gamer, o Arctis 5 combina controle independente de jogo e bate-papo, som surround DTS de ponta e iluminação RGB de zona dupla para criar a solução de áudio perfeita para o seu campo de batalha.",
     "price": "759,99",
-    "maisvendido": true
+    "maisvendido": true,
+    "marca": "Steelseries",
+    "modelo": "61504"
   },
   {
     "id": "4",
     "image": "/public/images/alienware.webp",
     "title": "Monitor Gamer curvo Alienware 240hz 34",
-    "description": "Monitor ultra caro",
+    "description": "O primeiro monitor gamer QD-OLED do mundo. Com taxa de contraste infinita e VESA DisplayHDR para gerar cores e imagens notavelmente vívidas e realistas.",
     "price": "10.399,99",
-    "maisvendido": true
+    "maisvendido": true,
+    "marca": "Dell",
+    "modelo": "ALIENWARE"
   },
   {
     "id": "5",
-    "image": "/public/images/teclado-vermelho.webp",
-    "title": "teclado gamer",
-    "description": "teclado ultra leve",
-    "price": "9.99",
-    "maisvendido": false
+    "image": "https://images.kabum.com.br/produtos/fotos/349611/teclado-mecanico-gamer-bright-one-hand-rgb-switch-blue-preto-gtc563_1655484586_gg.jpg",
+    "title": "Teclado Mecânico Gamer Bright One Hand",
+    "description": "Projetado para ser usado com apenas uma das mãos, o Teclado Mecânico Gamer Bright One Hand é ideal para todos os tipos de jogadores. Sacrificando algumas teclas de funções, numéricas e de letras que existem nos teclados convencionais, o Teclado One Hand é compacto e possui iluminação RGB para dar aquele toque de luz ao seu setup.",
+    "price": "124,99",
+    "maisvendido": false,
+    "marca": "Bright",
+    "modelo": "GTC563"
+  },
+  {
+    "id": "6",
+    "image": "https://images.kabum.com.br/produtos/fotos/98055/98055_2_1535545940_gg.jpg",
+    "title": "Teclado Mecânico Gamer HyperX Alloy FPS",
+    "description": "O Teclado Mecânico Gamer HyperX Alloy é projetado para ser resistente e proporcionar uma experiência imersiva aos jogadores, na qual é possível desempenhar alta performance, precisão e jogabilidade de ações concretas e possíveis",
+    "price": "399,99",
+    "maisvendido": false,
+    "marca": "HyperX",
+    "modelo": "HX-KB1SS2-US"
+  },
+  {
+    "id": "7",
+    "image": "https://images.kabum.com.br/produtos/fotos/98244/mouse-gamer-logitech-g502-hero-16k-rgb-lightsync-11-botoes-16000-dpi-910-005550_1626297206_gg.jpg",
+    "title": "Mouse Gamer Logitech G502 HERO com RGB LIGHTSYNC",
+    "description": "Sensor HERO 25K, 11 botões programáveis, Pesos ajustáveis, Tecnologia LIGHTSYNC, Tensionamento de botão com switch mecânico.",
+    "price": "319,99",
+    "maisvendido": false,
+    "marca": "Logitech",
+    "modelo": "G502 HERO"
+  },
+  {
+    "id": "8",
+    "image": "https://images.kabum.com.br/produtos/fotos/133211/mouse-gamer-redragon-storm-elite-rgb-8-botoes-16000-dpi-m988-rgb_1607451867_gg.jpg",
+    "title": "Mouse Gamer Redragon Storm Elite",
+    "description": "Tenha precisão absoluta em suas partidas com o Storm Elite. Descubra um Estilo moderno e inovador com efeitos de iluminação Chroma RGB presente no Storm Elite. Você ficara surpreso com o conforto encontrado ao pegar o Storm Elite.",
+    "price": "135,99",
+    "maisvendido": false,
+    "marca": "Redragon",
+    "modelo": "M988-RGB"
+  },
+  {
+    "id": "9",
+    "image": "https://images.kabum.com.br/produtos/fotos/115586/headset-gamer-sem-fio-hyperx-cloud-stinger-core-para-ps4-drivers-40mm-branco-hhss1c-kb-wt-g_1597260204_gg.jpg",
+    "title": "Headset Sem Fio Gamer HyperX Cloud Stinger Core",
+    "description": "Desfrute da liberdade sem fio a um ótimo preço. O HyperX Cloud Stinger Core sem fio é leve, durável e pronto para jogar em sistemas PS4. Converse com seus amigos online e desfrute de uma comunicação clara com seu squad graças ao microfone com cancelamento de ruído.",
+    "price": "599,99",
+    "maisvendido": false,
+    "marca": "HyperX",
+    "modelo": "Cloud Stinger Core"
+  },
+  {
+    "id": "10",
+    "image": "https://images.kabum.com.br/produtos/fotos/227818/headset-gamer-redragon-zeus-chroma-mk-ii-rgb-surround-7-1-usb-drivers-53mm-preto-vermelho-h510-rgb_1631555309_gg.jpg",
+    "title": "Headset Gamer Redragon Zeus X",
+    "description": "Iluminação RGB Redragon Chroma Mk.II. Almofadas e revestimento interno do arco em tecido. Som estéreo e Surround 7.1 Virtual. Microfone com redução de ruído. Controladora integrada e compatível com software.",
+    "price": "319,99",
+    "maisvendido": false,
+    "marca": "Redragon",
+    "modelo": "Modelo: Zeus X"
+  },
+  {
+    "id": "11",
+    "image": "https://images.kabum.com.br/produtos/fotos/113405/monitor-lg-led-25-full-hd-ips-hdmi-1ms-25um58-g_1591183670_gg.jpg",
+    "title": "Monitor Gamer LG 25' IPS, Ultra Wide",
+    "description": "Tenha imagens sem rastros e ações mais rápidas com o tempo de resposta de 1ms com Motion Blur Reduction. UltraWide. Recursos avançados para jogos e On-Screen Control com atalhos para suas configurações do monitor.",
+    "price": "899,99",
+    "maisvendido": false,
+    "marca": "LG",
+    "modelo": "25UM58-G"
+  },
+  {
+    "id": "12",
+    "image": "https://images.kabum.com.br/produtos/fotos/168357/monitor-gamer-samsung-odyssey-g3-24-full-hd-144hz-1ms-freesync-premium-hdmi-displayport-ajuste-de-altura-preto-lf24g35tfwlxzd_1630684466_gg.jpg",
+    "title": "Monitor Gamer Samsung Odyssey G3, 24 Full HD",
+    "description": "Domine todos os inimigos, mesmo em cenas muito rápidas. A taxa de atualização de 144Hz elimina atrasos e desfoque de movimento para uma jogabilidade emocionante com ação ultra suave. Jogue por mais tempo sem incomodo visual.",
+    "price": "1.399,99",
+    "maisvendido": false,
+    "marca": "Samsung",
+    "modelo": "LF24G35TFWLXZD"
   }
 ]
