@@ -59,13 +59,16 @@
     width: 85%;
     background:rgba(221, 214, 225, 0.723);
     border-radius: 6px;
-    padding: 20px 60px 30px 40px;
+    padding: 20px 60px 3px 40px;
     box-shadow: 0 5px 10px rgb(170,23,208);
+    font-size:max(60px,5vw);
+   
 }
 .container .content{
     display: flex;
     align-items: center;
   justify-content: space-between;
+
 }
 .container .content .left-side{
     width: 25%;
