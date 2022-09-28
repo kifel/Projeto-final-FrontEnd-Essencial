@@ -19,7 +19,7 @@ http.onload = function () {
                       <div class="card-body">
                           <h5 class="card-title">${item.title}</h5>
                           <p class="card-text">${item.description}</p>
-                          <a href="./src/views/detalhes.html" class="btn btn-primary ${item.id}" onclick="show(${item.id})" >Detalhes</a>
+                          <a href="./src/views/detalhes.html" class="btn btn-primary botao-item ${item.id}" onclick="show(${item.id})" >Detalhes</a>
                       </div>
                   </div>
               </a>    

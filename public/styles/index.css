@@ -20,28 +20,28 @@
 }
 
 .nav-link {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-transform: uppercase;
 }
 
 .pesquisar {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .search {
-  height: 40px;
+  height: 4rem;
   width: 80%;
-  border-radius: 60px;
+  border-radius: 6rem;
   border: solid 2px rgba(170, 23, 208, 0.85);
   outline: none;
-  margin-right: -35px;
+  margin-right: -3.5rem;
 }
 
 .botao {
-  height: 40px;
+  height: 4rem;
   width: 40%;
-  border-radius: 60px;
+  border-radius: 6rem;
   border: none;
   outline: none;
   background: rgb(170, 23, 208);
@@ -55,8 +55,8 @@
 
 .mais-vendidos h5,
 p {
-  margin-top: 5px;
-  padding-top: 5px;
+  margin-top: .5rem;
+  padding-top: .5rem;
 }
 
 .card:hover {
@@ -79,6 +79,19 @@ p {
 
 .card-produto {
   margin-top: 2rem;
+}
+
+.card-produto img {
+  height: 30rem;
+  width: 100%;
+}
+
+.botao-item {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  padding-top: .2rem;
+  height: 3rem;
+  width: 20rem;
 }
 
 footer h2 {
@@ -112,9 +125,9 @@ footer a:hover {
 }
 
 .botao1 {
-  height: 40px;
+  height: 4rem;
   width: 30%;
-  border-radius: 60px;
+  border-radius: 6rem;
   border: solid 2px rgba(170, 23, 208, 0.85);
   outline: none;
   background: rgb(170, 23, 208);
@@ -133,17 +146,17 @@ footer a:hover {
 }
 
 .enteremail {
-  height: 40px;
+  height: 4rem;
   width: 60%;
-  border-radius: 60px;
+  border-radius: 6rem;
   border: solid 2px rgba(170, 23, 208, 0.85);
   outline: none;
-  margin-right: -50px;
+  margin-right: -5rem;
 }
 
 .media-img {
-  height: 30px;
-  width: 30px;
+  height: 3rem;
+  width: 3rem;
 }
 
 @include media-breakpoint-up(xs) {
@@ -151,6 +164,7 @@ footer a:hover {
   .transparente {
     display: block;
   }
+  
 }
 @include media-breakpoint-up(sm) {
   .container,
