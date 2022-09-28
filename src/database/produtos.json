@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "../../public/images/teclado apex 3steelseries.webp",
+    "image": "/public/images/teclado apex 3steelseries.webp",
     "title": "Teclado Mecânico RGB Apex 3 SteelSeries",
     "description": "teclado ultra leve",
     "price": "349,99",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "image": "../../public/images/mouse-razer.webp",
+    "image": "/public/images/mouse-razer.webp",
     "title": "Mouse Gamer Razer Viper RGB sem fio",
     "description": "mouse ultra leve",
     "price": "829,99",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "image": "../../public/images/headset-steelseries.webp",
+    "image": "/public/images/headset-steelseries.webp",
     "title": "Headset Gamer SteelSeries Artics 5",
     "description": "Headset Gamer ultra leve",
     "price": "759,99",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "image": "../../public/images/alienware.webp",
+    "image": "/public/images/alienware.webp",
     "title": "Monitor Gamer curvo Alienware 240hz 34",
     "description": "Monitor ultra caro",
     "price": "10.399,99",

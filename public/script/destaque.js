@@ -1,11 +1,16 @@
-fetch("../../src/database/produtos.json")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (produtos) {
-    console.log(produtos[0].maisvendido)
+let ltt = new XMLHttpRequest();
 
-    const destaque = produtos.filter( show => show.maisvendido === true)
+ltt.open("get", "./src/database/produtos.json", true);
+
+ltt.send();
+
+ltt.onload = function () {
+  if (this.readyState == 4 && this.status == 200) {
+    let produtos = JSON.parse(this.responseText);
+
+    let output = "";
+
+    const destaque = produtos.filter((show) => show.maisvendido === true);
 
     let out = "";
 
@@ -13,7 +18,7 @@ fetch("../../src/database/produtos.json")
       out += `
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card card-produto">
-                    <img src="${item.image}" alt="${item.image} class="card-img-top" height="300" >
+                    <img src="${item.image}" alt=".${item.image} class="card-img-top" height="300" >
                     <div class="card-body">
                         <h5 class="card-title">${item.title}</h5>
                         <p class="card-text">${item.description}</p>
@@ -25,4 +30,5 @@ fetch("../../src/database/produtos.json")
     });
 
     document.querySelector(".destaques").innerHTML = out;
-  });
+  }
+};
