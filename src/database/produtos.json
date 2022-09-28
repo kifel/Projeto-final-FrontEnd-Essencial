@@ -30,5 +30,13 @@
     "description": "Monitor ultra caro",
     "price": "10.399,99",
     "maisvendido": true
+  },
+  {
+    "id": "5",
+    "image": "https://ae01.alicdn.com/kf/Sf9b66dfa9f0c4ab39ac1d5958c73e764i/Bm40rgb-bm40-rgb-40-quente-swappable-teclado-mec-nico-pcb-programado-qmk-firmware-rgb-interruptor-underglow.jpg_Q90.jpg_.webp",
+    "title": "teclado gamer",
+    "description": "teclado ultra leve",
+    "price": "9.99",
+    "maisvendido": false
   }
 ]
