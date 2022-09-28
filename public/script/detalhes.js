@@ -10,7 +10,7 @@ fetch("../database/produtos.json")
     produtos.forEach((item) => {
       if (item.id === idItem) {
         const tittle = document.querySelector(".tittle-item");
-        document.querySelector(".image-item").src = item.image;
+        document.querySelector(".image-item").src = `../..${item.image}`;
         const price = document.querySelector(".price");
         const desc = document.querySelector(".desc");
         const marca = document.querySelector(".marca");
