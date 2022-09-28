@@ -45,7 +45,7 @@ Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.g
 * **Bruna Ferreira** - *Desenvolvimento do código* - [Bruna3221](https://github.com/Bruna3221)
 * **Jonathan Marques** - *Desenvolvimento do código* - [JotaMarquesb](https://github.com/JotaMarquesb)
 * **ViniciusPolletti** - *Desenvolvimento do código* - [ViniciusPolletti](https://github.com/ViniciusPolletti)
-* **Joao Maia** - *Desenvolvimento do código* - [Schocs](https://github.com/Schocs)
+* **João Maia** - *Desenvolvimento do código* - [Schocs](https://github.com/Schocs)
 
 ---
  
