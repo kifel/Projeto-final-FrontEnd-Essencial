@@ -7,24 +7,19 @@ fetch("../database/produtos.json")
     return response.json();
   })
   .then(function (produtos) {
-    let out = "";
-
     produtos.forEach((item) => {
       if (item.id === idItem) {
-        out += `
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="../..${item.image}" alt="../..${item.image} class="card-img-top img-fluid" >
-                    <div class="card-body">
-                        <h5 class="card-title">${item.title}</h5>
-                        <p class="card-text">${item.description}</p>
-                        <p class="card-text">R$ ${item.price}</p>
-                    </div>
-                </div>
-            </div>
-        `;
+        const tittle = document.querySelector(".tittle-item");
+        document.querySelector(".image-item").src = item.image;
+        const price = document.querySelector(".price");
+        const desc = document.querySelector(".desc");
+        const marca = document.querySelector(".marca");
+        const modelo = document.querySelector(".modelo");
+        tittle.innerText = item.title;
+        price.innerText = `R$, ${item.price}`;
+        desc.innerText = item.description
+        marca.innerText = item.marca
+        modelo.innerText = item.marca
       }
     });
-
-    document.querySelector(".produtos").innerHTML = out;
   });
