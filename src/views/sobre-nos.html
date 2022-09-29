@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre nós</title>
     <link
       rel="stylesheet"
@@ -21,287 +20,490 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../../public/styles/style.css">
-    <link rel="stylesheet" href="../../public/styles/sobre.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../public/styles/style.css" />
+    <link rel="stylesheet" href="../../public/styles/sobre.css" />
 
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand text-center" href="#" id="logo-header">
-          Penta
-        </a>
-        <button
-          class="navbar-toggler mx-2"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse mx-1"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../../index.html#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html#mais-vendidos">Mais vendidos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../index.html#produtos">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../src/views/formulario.html">Fale conosco</a>
-            </li>
-          </ul>
-          <form class="d-flex pesquisar px-1" role="search">
-            <input
-              class="form-control px-2 search"
-              type="search"
-              placeholder="Pesquisar"
-              aria-label="Search"
+    <script src="../../public/script/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark inverted" id="top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="../../index.html" id="logo-header">
+            Penta
+          </a>
+          <button
+            class="navbar-toggler mx-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse mx-1"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn btn-dark-mode" onclick="darkMode()">
+                  <i class="bi bi-moon-fill"></i>
+                </button>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../../index.html#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html#mais-vendidos"
+                  >Mais vendidos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html#produtos"
+                  >Produtos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../src/views/formulario.html"
+                  >Fale conosco</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex pesquisar px-1" role="search">
+              <input
+                class="form-control px-2 search"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary botao" type="submit">
+                <img src="../../public/images/search.svg" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="bg-light">
+      <div class="container py-5">
+        <div class="row h-100 align-items-center py-5">
+          <div class="col-lg-6">
+            <h1 class="display-4">Sobre nós</h1>
+
+            <p class="lead text-muted mb-0 paragrafo">
+              Desde novinhos, com nossos super-nintendos e playstations, nos
+              vemos inseridos e completamente fascinados pelo mundo gamer e toda
+              sua magia. Sendo assim, com o intuito de oferecer os melhores
+              produtos e preços, fundamos a PentaPeriféricos exclusivamente para
+              voce ! E de forma de nos deixarmos mais próximos, cada um de nós
+              dirá um pouco mais sobre si a seguir.
+            </p>
+          </div>
+          <div class="col-lg-6 d-none d-lg-block">
+            <img
+              src="https://bootstrapious.com/i/snippets/sn-about/illus.png"
+              alt=""
+              class="img-fluid"
             />
-            <button class="btn btn-outline-primary botao" type="submit">
-              <img src="../../public/images/search.svg" />
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-      <div class="bg-light">
-        <div class="container py-5">
-          <div class="row h-100 align-items-center py-5">
-            <div class="col-lg-6">
-              <h1 class="display-4">Sobre nós</h1>
-
-              <p class="lead text-muted mb-0 paragrafo"> Desde novinhos, com nossos super-nintendos e playstations, nos vemos inseridos e completamente
-                fascinados pelo mundo gamer e toda sua magia. Sendo assim, com o intuito de oferecer os melhores
-                produtos e preços, fundamos a PentaPeriféricos exclusivamente para voce ! E de forma de nos deixarmos
-                mais próximos,
-                cada um de nós dirá um pouco mais sobre si a seguir.</p>
-            </div>
-            <div class="col-lg-6 d-none d-lg-block"><img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" class="img-fluid"></div>
           </div>
         </div>
       </div>
-      
-      <div class="bg-light py-5">
-        <div class="container py-5">
-          <div class="row mb-4">
-            <div class="col-lg-5">
-              <h2 class="display-4 font-weight-light">Nossa equipe</h2>
-            </div>
-          </div>
-      
-          <div class="row text-center justify-content-between">
-            <!-- Team item-->
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/meu.PNG" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">Bruna Ferreira</h5><span class="small">"Olá, sou a Bruna, uma mulher de 22 anos que apesar de desde sempre adorar tecnologia, por muito tempo
-                    não sabia o que
-                    fazer da vida e, continuo sem saber (rs). Mas estou ai, me arriscando em coisas novas e vendo no que
-                    pode dar."</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- End-->
-      
-            <!-- Team item-->
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/eu2.jpg" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">João Chocron</h5><span class="small"> "E ai, sou o João Pedro, 25 anos nascido em Teresópolis. Faculdade incompleta por conta de frustações com o curso, encontrando-me em
-                    programação através da residência fullstack SerraTech!"</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- End-->
-      
-            <!-- Team item-->
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/amadna.PNG" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">Amanda</h5><span class="small">"Oi, tudo bem? Sou a Amanda, tenho 28 anos e moro em Teresópolis.
-                  Fiz duas faculdades , mas não me identifiquei com a área feita. Hoje me encontro bem satisfeita com o
-                  SerraTech!"</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- End-->
-          </div>
+    </div>
 
-          <div class="row text-center justify-content-between">
-            <!-- Team item-->
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/vini.PNG" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">Vinicius Polletti</h5><span class="small">"E ai, beleza? Sou o Vinícius, tenho 29 anos, nascido em Nova Friburgo. Sou técnico em design de
-                  interiores. Sempre fui apaixonado por tecnologia
-                  desde pequeno, e hoje tenho a chance de ser um dev FullStack."</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- End-->
-          
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/jo.PNG" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">Jonathan Marques</h5><span class="small">"E ai, como vai? Jonathan Marques aqui. Tenho 32 anos, sou papai do Joaquim, um verdadeiro amante da
-                  tecnologia. Trabalho como QA (quality assurance) na Alterdata. Cursando a residência fullstack do SerraTec."</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-sm-6 mb-5 time">
-              <div class="bg-white rounded shadow-sm py-5 px-4 time-div"><img src="../../public/img/per.PNG" alt="" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time">
-                <h5 class="mb-1">Joao Pereira</h5><span class="small">"E ai. Sou o João Pereira, tenho 21 anos e sou Full Stack Developer in Training - Residência em TIC | Serratec - Studying Electrical Engineering CEFET/RJ."</span>
-                <ul class="social mb-0 list-inline mt-3">
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
-      
+    <div class="bg-light py-5">
+      <div class="container py-5">
+        <div class="row mb-4">
+          <div class="col-lg-5">
+            <h2 class="display-4 font-weight-light">Nossa equipe</h2>
           </div>
         </div>
-      </div>
-      
-      <div class="bg-light py-2 mb-5">
-        <div class="container py-2">
-          <div class="row m-auto">
-            <div class="col-lg-12 mb-5">
-              <h2>"Assim como na vida, cada fase do jogo exige concentração e força de vontade para ser vencida."
-                - CEO</h2>
-            </div>
-          </div>
-        </div>
-      </div>  
 
-      
-          <footer class="bg-dark py-2 mt-5">
-            <section class="social-media">
-              <div class="container x bg-dark py-2">
-                <div class="text-center m-auto">
-                  <a class="btn btn-floating btn-outline-dark" href="#" role="button">
-                    <img
-                      src="../../public/images/facebook.png"
-                      alt="logo facebook"
-                      class="media-img"
-                    />
-                  </a>
-                  <a class="btn btn-floating btn-outline-dark" href="#" role="button">
-                    <img
-                      src="../../public/images/instagram.png"
-                      alt="logo instagram"
-                      class="media-img"
-                    />
-                  </a>
-                  <a class="btn btn-floating btn-outline-dark" href="#" role="button">
-                    <img
-                      src="../../public/images/twitter.png"
-                      alt="logo twitter"
-                      class="media-img"
-                    />
-                  </a>
-                  <a class="btn btn-floating btn-outline-dark" href="#" role="button">
-                    <img
-                      src="../../public/images/google-plus.png"
-                      alt="logo google-plus"
-                      class="media-img"
-                    />
-                  </a>
-                  <a class="btn btn-floating btn-outline-dark" href="#" role="button">
-                    <img
-                      src="../../public/images/linkedin.png"
-                      alt="logo linkedin"
-                      class="media-img"
-                    />
-                  </a>
-                </div>
-              </div>
-            </section>
-      
-            <section class="newsletter">
-              <div class="container x bg-dark py-3">
-                <div class="row text-center">
-                  <div class="col-lg-6 m-auto">
-                    <div class="subcribe-form fl-wrap">
-                      <h2>Fique por dentro de nossas ofertas!</h2>
-                      <p>Assine nossa newsletter e não perca nenhuma promoção:</p>
-                      <form id="subscribe" novalidate="true" class="news-form">
-                        <input
-                          class="enteremail px-2"
-                          name="EMAIL"
-                          id="subscribe-email"
-                          placeholder="Insira seu email: "
-                          spellcheck="false"
-                          type="text"
-                        />
-                        <button
-                          type="submit"
-                          id="subscribe-button"
-                          class="subscribe-button color-bg botao1"
-                        >
-                        Assinar
-                        </button>
-                        <label
-                          for="subscribe-email"
-                          class="subscribe-message"
-                        ></label>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-      
-            <section class="cnpj">
-              <div
-                class="text-center p-4"
-                style="background-color: rgba(0, 0, 0, 0.05)"
+        <div class="row text-center justify-content-between">
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/meu.PNG"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">Bruna Ferreira</h5>
+              <span class="small"
+                >"Olá, sou a Bruna, uma mulher de 22 anos que apesar de desde
+                sempre adorar tecnologia, por muito tempo não sabia o que fazer
+                da vida e, continuo sem saber (rs). Mas estou ai, me arriscando
+                em coisas novas e vendo no que pode dar."</span
               >
-                © 2021 Copyright:
-                <a class="fw-bold" href="#">pentaperifericos.com</a>
-                | CNPJ: XX. XXX. XXX/0001-XX
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/eu2.jpg"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">João Chocron</h5>
+              <span class="small">
+                "E ai, sou o João Pedro, 25 anos nascido em Teresópolis.
+                Faculdade incompleta por conta de frustações com o curso,
+                encontrando-me em programação através da residência fullstack
+                SerraTech!"</span
+              >
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/amadna.PNG"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">Amanda</h5>
+              <span class="small"
+                >"Oi, tudo bem? Sou a Amanda, tenho 28 anos e moro em
+                Teresópolis. Fiz duas faculdades , mas não me identifiquei com a
+                área feita. Hoje me encontro bem satisfeita com o
+                SerraTech!"</span
+              >
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+        </div>
+
+        <div class="row text-center justify-content-between">
+          <!-- Team item-->
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/vini.PNG"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">Vinicius Polletti</h5>
+              <span class="small"
+                >"E ai, beleza? Sou o Vinícius, tenho 29 anos, nascido em Nova
+                Friburgo. Sou técnico em design de interiores. Sempre fui
+                apaixonado por tecnologia desde pequeno, e hoje tenho a chance
+                de ser um dev FullStack."</span
+              >
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End-->
+
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/jo.PNG"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">Jonathan Marques</h5>
+              <span class="small"
+                >"E ai, como vai? Jonathan Marques aqui. Tenho 32 anos, sou
+                papai do Joaquim, um verdadeiro amante da tecnologia. Trabalho
+                como QA (quality assurance) na Alterdata. Cursando a residência
+                fullstack do SerraTec."</span
+              >
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 mb-5 time">
+            <div class="bg-white rounded shadow-sm py-5 px-4 time-div">
+              <img
+                src="../../public/images/per.jpg"
+                alt=""
+                class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm img-time"
+              />
+              <h5 class="mb-1">Joao Pereira</h5>
+              <span class="small"
+                >"E ai. Sou o João Pereira, tenho 21 anos e sou Full Stack
+                Developer in Training - Residência em TIC | Serratec - Studying
+                Electrical Engineering CEFET/RJ."</span
+              >
+              <ul class="social mb-0 list-inline mt-3">
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="social-link"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light py-2 mb-5">
+      <div class="container py-2">
+        <div class="row m-auto">
+          <div class="col-lg-12 mb-5">
+            <h2>
+              "Assim como na vida, cada fase do jogo exige concentração e força
+              de vontade para ser vencida." - CEO
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark py-2 mt-5 inverted">
+      <section class="social-media">
+        <div class="container x bg-dark py-2">
+          <div class="text-center m-auto">
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/facebook.png"
+                alt="logo facebook"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/instagram.png"
+                alt="logo instagram"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/twitter.png"
+                alt="logo twitter"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/google-plus.png"
+                alt="logo google-plus"
+                class="media-img"
+              />
+            </a>
+            <a class="btn btn-floating btn-outline-dark" href="#" role="button">
+              <img
+                src="../../public/images/linkedin.png"
+                alt="logo linkedin"
+                class="media-img"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container x bg-dark py-3">
+          <div class="row text-center">
+            <div class="col-lg-6 m-auto">
+              <div class="subcribe-form fl-wrap">
+                <h2>Fique por dentro de nossas ofertas!</h2>
+                <p>Assine nossa newsletter e não perca nenhuma promoção:</p>
+                <form id="subscribe" novalidate="true" class="news-form">
+                  <input
+                    class="enteremail px-2"
+                    name="EMAIL"
+                    id="subscribe-email"
+                    placeholder="Insira seu email: "
+                    spellcheck="false"
+                    type="text"
+                  />
+                  <button
+                    type="submit"
+                    id="subscribe-button"
+                    class="subscribe-button color-bg botao1"
+                  >
+                    Assinar
+                  </button>
+                  <label
+                    for="subscribe-email"
+                    class="subscribe-message"
+                  ></label>
+                </form>
               </div>
-            </section>
-          </footer>
-      
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cnpj">
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2021 Copyright:
+          <a class="fw-bold" href="#">pentaperifericos.com</a>
+          | CNPJ: XX. XXX. XXX/0001-XX
+        </div>
+      </section>
+    </footer>
+
+    <a id="backToTopButton" class="inverted" href="#top">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#AA17D0" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
 
     <!-- <section class=" corpo">
         <div class=" conteúdo">
@@ -411,6 +613,5 @@
         <br />
         <br />
     </div> -->
-</body>
-
+  </body>
 </html>
