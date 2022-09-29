@@ -110,7 +110,7 @@ body {
 
 .container .content .right-side {
   width: 75%;
-  margin-left: 75px;
+  margin-left: 7.5rem;
 }
 .content .right-side .topic-text {
   font-size: 23px;
@@ -118,9 +118,8 @@ body {
   color: rgb(170, 23, 208);
 }
 .right-side .input-box {
-  height: 50px;
+  height: 5rem;
   width: 100%;
-  margin: 12px 0;
 }
 .right-side .input-box input,
 .right-side .input-box textarea {
@@ -135,10 +134,16 @@ body {
   resize: none;
 }
 .right-side .message-box {
-  min-height: 110px;
+  height: 10rem;
+  margin-top: 10rem;
+  min-height: 11rem;
+}
+
+.right-side .email-input {
+  margin-top: 2rem;
 }
 .right-side .input-box textarea {
-  padding-top: 60px;
+  padding-top: 6rem;
 }
 .button {
   display: inline-block;
