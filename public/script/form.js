@@ -17,14 +17,13 @@ document.getElementById("botao").addEventListener("click",(e)=>{
    }
   if(cont!= 3){
     e.preventDefault
-    alert ("Email deve conter "@" e "."
-     e a mensagem no minimo 5 caracter" )
+    alert ("Email deve conter '@' e '.' e a mensagem no minimo 5 caracter" )
   }
   else{
     localStorage.nomeform=nomeform
     localStorage.emailform= emailform
     localStorage.mensagemform= mensagemform
-  document.getElementById("idnome").value=""  
+  document.getElementById("idnome").value=""
   document.getElementById("idemail").value="" 
   document.getElementById("idmensagem").value="" 
 }
