@@ -16,7 +16,7 @@ fetch("../database/produtos.json")
         const marca = document.querySelector(".marca");
         const modelo = document.querySelector(".modelo");
         tittle.innerText = item.title;
-        price.innerText = `R$, ${item.price}`;
+        price.innerText = `R$ ${item.price}`;
         desc.innerText = item.description;
         marca.innerText = item.marca;
         modelo.innerText = item.modelo;
