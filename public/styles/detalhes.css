@@ -102,3 +102,21 @@
     height: 3rem;
     width: 3rem;
   }
+
+  .botao-comprar {
+    font-size: 2rem;
+    width: 20rem;
+  }
+
+  .icone-detalhes {
+    width: 60px;
+    height: 60px;
+  }
+
+  .price{
+    font-weight: 700;
+  }
+
+  .titulo-produto{
+    font-size: 2.25rem;
+  }
