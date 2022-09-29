@@ -91,9 +91,13 @@ p {
   text-decoration: none;
 }
 
-.card-produto {
-  height: 60rem;
+.card-body {
+  height: 40rem;
   margin-top: 2rem;
+}
+
+.card-footer {
+  height: 5rem;
 }
 
 .card-produto img {
@@ -103,10 +107,17 @@ p {
 
 .botao-item {
   font-size: 1.6rem;
-  margin-top: 1rem;
-  padding-top: .2rem;
-  height: 3rem;
-  width: 20rem;
+  padding-top: .75rem;
+  height: 100%;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+}
+
+.produtos a:hover {
+  text-decoration: none;
+  color:rgb(47, 12, 56);
+  transition: 0.5ms;
 }
 
 /* Footer */

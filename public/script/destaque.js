@@ -18,12 +18,13 @@ ltt.onload = function () {
       out += `
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card card-produto">
-                    <img src=".${item.image}" alt=".${item.image} class="card-img-top img-fluid" >
-                    <div class="card-body">
-                        <h5 class="card-title">${item.title}</h5>
-                        <p class="card-text">${item.description}</p>
-                        <p class="card-text">R$ ${item.price}</p>
+                    <div class="card-body text-center my-2">
+                        <img src=".${item.image}" alt=".${item.image} class="card-img-top img-fluid" >
+                        <h5 class="card-title">${item.title}</h5> 
                     </div>
+                    <div class="card-footer text-center bg-dark">
+                      <p class="card-text text-white">R$ ${item.price}</p>
+                    </div>  
                 </div>
             </div>
         `;

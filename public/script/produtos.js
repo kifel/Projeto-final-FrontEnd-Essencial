@@ -14,12 +14,13 @@ http.onload = function () {
       output += `
             <div class="col-12 col-md-6 col-lg-3">
               <a href="./src/views/detalhes.html" class="btn-item" onclick="show(${item.id})" >
-                  <div class="card card-produto">
-                      <img src=".${item.image}" alt=".${item.image} class="card-img-top" height="300" >
-                      <div class="card-body">
-                          <h5 class="card-title">${item.title}</h5>
-                          <p class="card-text">${item.description}</p>
-                          <a href="./src/views/detalhes.html" class="btn btn-primary botao-item ${item.id}" onclick="show(${item.id})" >Detalhes</a>
+                  <div class="card card-produto my-2">
+                      <div class="card-body m-auto">
+                          <img src=".${item.image}" alt=".${item.image} class="card-img-top" height="300" >
+                          <h5 class="card-title mt-5">${item.title}</h5>
+                      </div>
+                      <div class="card-footer text-center">
+                          <a href="./src/views/detalhes.html" class="btn bg-dark text-white botao-item ${item.id}" onclick="show(${item.id})" >Detalhes</a>
                       </div>
                   </div>
               </a>    
