@@ -29,6 +29,8 @@ body {
   overflow: overlay;
 }
 
+/*=== DarkMode ===*/
+
 .dark-mode {
   filter: invert(1) hue-rotate(180deg);
 }
@@ -54,4 +56,26 @@ body {
 .invert,
 .dark-mode img {
   filter: invert(1) hue-rotate(180deg);
+}
+
+/*=== Voltar para o topo ===*/
+
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
+
+  filter: brightness(1.1);
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }

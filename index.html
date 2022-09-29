@@ -42,7 +42,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark inverted">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark inverted fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand text-center" href="#" id="logo-header">
             Penta
@@ -69,10 +69,10 @@
                 </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#mais-vendidos">Mais vendidos</a>
+                <a class="nav-link" href="#maisVendidos">Mais vendidos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#produtos">Produtos</a>
@@ -81,7 +81,9 @@
                 <a class="nav-link" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../../src/views/formulario.html">Fale conosco</a>
+                <a class="nav-link" href="../../src/views/formulario.html"
+                  >Fale conosco</a
+                >
               </li>
             </ul>
             <form class="d-flex pesquisar px-1" role="search">
@@ -101,7 +103,7 @@
     </header>
 
     <main>
-      <section class="home inverted">
+      <section class="home inverted" id="home">
         <div class="container py-5">
           <div class="row pt-4">
             <div class="col-lg-6 pt-5 mt-5 text-center">
@@ -116,7 +118,7 @@
         </div>
       </section>
 
-      <section class="mais-vendidos" id="mais-vendidos">
+      <section class="mais-vendidos" id="maisVendidos">
         <div class="container py-5">
           <div class="row py-5">
             <div class="col-lg-5 m-auto text-center">
@@ -286,5 +288,31 @@
         </div>
       </section>
     </footer>
+
+    <a id="backToTopButton" class="inverted" href="#home">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#AA17D0" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
   </body>
 </html>
