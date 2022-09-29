@@ -23,7 +23,7 @@ document.getElementById("botao").addEventListener("click",(e)=>{
     localStorage.nomeform=nomeform
     localStorage.emailform= emailform
     localStorage.mensagemform= mensagemform
-  document.getElementById("idnome").value=""  
+  document.getElementById("idnome").value=""
   document.getElementById("idemail").value="" 
   document.getElementById("idmensagem").value="" 
 }
