@@ -42,7 +42,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark inverted">
         <div class="container-fluid">
           <a class="navbar-brand text-center" href="#" id="logo-header">
             Penta
@@ -63,6 +63,11 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="btn btn-dark-mode" onclick="darkMode()">
+                  <i class="bi bi-moon-fill"></i>
+                </button>
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -96,7 +101,7 @@
     </header>
 
     <main>
-      <section class="home">
+      <section class="home inverted">
         <div class="container py-5">
           <div class="row pt-4">
             <div class="col-lg-6 pt-5 mt-5 text-center">
@@ -136,7 +141,7 @@
       </section>
     </main>
 
-    <footer class="bg-dark py-2">
+    <footer class="bg-dark py-2 inverted">
       <section class="social-media">
         <div class="container py-2">
           <div class="text-center m-auto">
