@@ -22,7 +22,7 @@ ltt.onload = function () {
                         <img src=".${item.image}" alt=".${item.image} class="card-img-top img-fluid" >
                         <h5 class="card-title">${item.title}</h5> 
                     </div>
-                    <div class="card-footer text-center bg-dark">
+                    <div class="card-footer text-center bg-dark inverted">
                       <p class="card-text text-white">R$ ${item.price}</p>
                     </div>  
                 </div>

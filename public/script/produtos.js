@@ -19,7 +19,7 @@ http.onload = function () {
                           <img src=".${item.image}" alt=".${item.image} class="card-img-top" height="300" >
                           <h5 class="card-title mt-5">${item.title}</h5>
                       </div>
-                      <div class="card-footer text-center">
+                      <div class="card-footer text-center inverted">
                           <a href="./src/views/detalhes.html" class="btn bg-dark text-white botao-item ${item.id}" onclick="show(${item.id})" >Detalhes</a>
                       </div>
                   </div>
